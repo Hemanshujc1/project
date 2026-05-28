@@ -5,7 +5,7 @@ import vakrangeelogo from "../../assets/vakrangeelogo.png";
 const Footer = () => {
   return (
     <footer className="w-full bg-black border-t border-gray-800 overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 py-4 gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 py-1 gap-4">
         <div className="flex items-center">
           <img
             src={vakrangeelogo}
@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center">
           <Link
             to="/"
-            className="text-white text-lg font-semibold hover:text-[#f58b2b] transition"
+            className="text-white text-sm font-semibold hover:text-[#f58b2b] transition"
           >
             Home
           </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
 
           <button
             // onClick={logout}
-            className="text-white text-lg font-semibold hover:text-[#f58b2b] transition"
+            className="text-white text-sm font-semibold hover:text-[#f58b2b] transition"
           >
             Log Out
           </button>

@@ -54,7 +54,7 @@ const Navbar = () => {
       </Link>
 
       <div className="flex-1 flex justify-center px-2 sm:px-4">
-        <h1 className="text-white text-lg sm:text-2xl md:text-3xl font-bold text-center tracking-wide">
+        <h1 className="text-white text-lg sm:text-xl md:text-2xl font-bold text-center tracking-wide">
           Vakrangee Kendra Management System
         </h1>
       </div>
